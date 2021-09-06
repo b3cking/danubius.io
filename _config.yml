@@ -9,7 +9,7 @@ name: Danubius Informatika
 description: Tech blog & podcast
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://media-exp1.licdn.com/dms/image/C4E0BAQH6ftcCNzY19A/company-logo_200_200/0/1519902746395?e=1639008000&v=beta&t=pv04J2SDbG7CJJ68KrsCc175l816YX5akWK21WDv2P4
+avatar: ./images/danubius_logo.png
 
 #
 # Flags below are optional
