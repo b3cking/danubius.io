@@ -9,7 +9,7 @@ name: Danubius Informatika
 description: Tech blog & podcast
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: {{ site.baseurl }}/images/danubius_logo.png)
+avatar: https://b3cking.github.io/images/danubius_logo.png
 
 #
 # Flags below are optional
