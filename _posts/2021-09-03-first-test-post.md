@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First test post
+title: 🇬🇧 First test post
 ---
 
 First post only for testing purpose.
