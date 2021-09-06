@@ -5,6 +5,6 @@ title: 🇬🇧 First test post
 
 First post only for testing purpose.
 
-![_config.yml]({{ site.baseurl }}/images/danubius-informatika-di-v2.png)
+![_config.yml]({{ site.baseurl }}/images/mg-flowchart.png)
 
 Content coming soon.
