@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Danubius Informatika
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Tech blog & podcast
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://media-exp1.licdn.com/dms/image/C4E0BAQH6ftcCNzY19A/company-logo_200_200/0/1519902746395?e=1639008000&v=beta&t=pv04J2SDbG7CJJ68KrsCc175l816YX5akWK21WDv2P4
 
 #
 # Flags below are optional
@@ -18,15 +18,15 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: info@danubiusinfo.hu
+  facebook: https://www.facebook.com/profile.php?id=100063537072060
   flickr:
-  github: barryclark/jekyll-now
+  github:
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
