@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Placeholder.
 
-### More Information
+### Contact us
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[info@danubiusinfo.hu](mailto:info@danubiusinfo.hu)
