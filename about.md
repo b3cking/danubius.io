@@ -29,6 +29,6 @@ Based on numerous projects, we can help you with the definition of an MVP scope 
 Digital projects are increasingly demanding. They require the cooperation of several professions. Beyond the traditional set of business analysts, software architects, developers, testers, etc. a new set of frontier roles emerged to deal with e.g. user experience, service design, online marketing, data science. We can bring these experts to your table and support your project in a holistic manner.
 ### Contact us
 
-If you think that we can help you, contact us at [info@danubiusinfo.hu](mailto:info@danubiusinfo.hu), read our [company website](https://danubiusinfo.com/), or listen to our [podcast](https://techergok.danubius.io).
+If you think that we can help you, contact us at [info@danubiusinfo.hu](mailto:info@danubiusinfo.hu), read our [company website](https://danubiusinfo.com/) or listen to our podcast.
 
 ![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
