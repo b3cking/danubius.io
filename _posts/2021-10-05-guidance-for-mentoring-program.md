@@ -5,7 +5,8 @@ title: 🇬🇧 Guidance for mentors, mentees, and companies planning introducti
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
-#### The mentor is not equal to Google, while the mentee has a hard time swimming with a holey life jacket. What to do and not to do, what to pay attention to, while you are a mentor, and what to focus on, if a mentoring program is planned at your company?
+
+**The mentor is not equal to Google, while the mentee has a hard time swimming with a holey life jacket. What to do and not to do, what to pay attention to, while you are a mentor, and what to focus on, if a mentoring program is planned at your company?**
 
 You have just finished a 1.5-year software development bootcamp, or got your degree, graduated from university. You should see a bunch of opportunities in front of you, yet you enter the first job of your life with trembling legs, or right after a career change, get experience in a completely different environment than earlier. You are committed, but also full of questions and doubts. At your new company, they point to an experienced colleague and say (s)he is the one you can turn and talk to, if you have questions or in case of any professional uncertainty – (s)he will be your mentor. Do you calm down, or are you even more nervous?
 
@@ -59,7 +60,7 @@ At Danubius, mentors use a **variety of approaches**: some define a maximum peri
 
 The last year and a half has not been easy for the perspective of mentor-mentee role, it is far from easy to learn a completely new job in remote work. Additionally a Danubius team started testing **mob programming** (when the whole team is gathered around a single machine and keyboard, working on the same task) just before COVID. This also had to be transferred to the online space, with Zoom remote control, this has been done perfectly. A team of two juniors and one senior colleagues rotated every 10 minutes, who was hitting the keyboard (who is programming de facto). They spent 3-3 hours in the morning and afternoon, 3-4 days a week. Through this approach, everyone can learn a lot, and junior colleagues can develop very intensively through it.
 
-## Beyond the mentoring program...
+## Beyond the mentoring program
 
 Who can take what out of a mentoring relationship beside professional knowledge? It may sound trite, but you can get only as much as you put in earlier, as much as you are open to improve and develop. “***I learned new approaches**. I learned to think with my colleague’s head and to break down a process into smaller steps. These are values that I can use in other areas of my life*” – highlighted one mentor.
 
