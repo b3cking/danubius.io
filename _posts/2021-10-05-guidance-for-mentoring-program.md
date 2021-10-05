@@ -4,7 +4,7 @@ image: "/images/mentoring1.jpg"
 title: 🇬🇧 Guidance for mentors, mentees, and companies planning introduction of a mentoring program
 ---
 
-![_config.yml]({{ site.baseurl }}/images/mentoring2.jpg)
+![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
 
 **The mentor is not equal to Google, while the mentee has a hard time swimming with a holey life jacket. What to do and not to do, what to pay attention to, while you are a mentor, and what to focus on, if a mentoring program is planned at your company?**
 
@@ -13,6 +13,8 @@ You have just finished a 1.5-year software development bootcamp, or got your deg
 You have been working for a certain company for years, you feel valued, and you are often approached by colleagues for professional advice. In such cases, you are always happy to help, it feels good that you can share your accumulated knowledge with developers and analysts. Your workplace is introducing a mentoring program, you apply for it, being selected, and finally the big day has come: today you will finally have a mentee with bright and sparkling eyes! Everybody is happy, but in fact, you have no idea how it will work in practice, you are concerned with at least as many issues as your mentee.
 
 Whichever above mentioned role you are in right now, plenty of questions about mentoring will be answered in our article! If you’re planning to introduce a similar program at your company, the next few lines are absolutely worth reading! :)
+
+<!-- more -->
 
 > At [Danubius Expert](https://danubiusinfo.com/) (hereinafter: Danubius), the mentor culture has been building for 12 years, from the very beginning: the first mentees of the founders became the first full-time colleagues, who later also mentored new trainees, juniors, and so on… Nowadays more than 60 IT experts, specialized in web and mobile applications, develop financial and educational softwares for both domestic, and foreign clients as well.
 
