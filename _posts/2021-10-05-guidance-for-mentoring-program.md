@@ -4,7 +4,7 @@ image: "/images/mentoring1.jpg"
 title: 🇬🇧 Guidance for mentors, mentees, and companies planning introduction of a mentoring program
 ---
 
-![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
+![_config.yml]({{ site.baseurl }}/images/mentoring2.jpg)
 
 **The mentor is not equal to Google, while the mentee has a hard time swimming with a holey life jacket. What to do and not to do, what to pay attention to, while you are a mentor, and what to focus on, if a mentoring program is planned at your company?**
 
