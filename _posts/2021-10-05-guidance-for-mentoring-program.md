@@ -14,8 +14,6 @@ You have been working for a certain company for years, you feel valued, and you 
 
 Whichever above mentioned role you are in right now, plenty of questions about mentoring will be answered in our article! If you’re planning to introduce a similar program at your company, the next few lines are absolutely worth reading! :)
 
-<!-- more -->
-
 > At [Danubius Expert](https://danubiusinfo.com/) (hereinafter: Danubius), the mentor culture has been building for 12 years, from the very beginning: the first mentees of the founders became the first full-time colleagues, who later also mentored new trainees, juniors, and so on… Nowadays more than 60 IT experts, specialized in web and mobile applications, develop financial and educational softwares for both domestic, and foreign clients as well.
 
 We regularly organize internal knowledge sharing and discussion forums, where actual topics and issues can be talked about, which encourage people’s active involvement. Most recently, the mentor program came under a deep scrutiny.
