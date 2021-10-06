@@ -14,7 +14,11 @@ You have been working for a certain company for years, you feel valued, and you 
 
 Whichever above mentioned role you are in right now, plenty of questions about mentoring will be answered in our article! If you’re planning to introduce a similar program at your company, the next few lines are absolutely worth reading! :)
 
+---
+
 > At [Danubius Expert](https://danubiusinfo.com/) (hereinafter: Danubius), the mentor culture has been building for 12 years, from the very beginning: the first mentees of the founders became the first full-time colleagues, who later also mentored new trainees, juniors, and so on… Nowadays more than 60 IT experts, specialized in web and mobile applications, develop financial and educational softwares for both domestic, and foreign clients as well.
+
+---
 
 We regularly organize internal knowledge sharing and discussion forums, where actual topics and issues can be talked about, which encourage people’s active involvement. Most recently, the mentor program came under a deep scrutiny.
 
@@ -68,9 +72,15 @@ At the side of the mentees, an important lesson of the program is that there is 
 
 What happens when the program ends? Everyone goes on their own way, the mentee is armed with a lot of professional knowledge, confidence, a sense of success (and of course some tolerance for failure)… And the mentor? How do they see it?
 
-*"A mentor can't just be a mentor at work, I'd like to think that once I've been mentoring someone for a year and a half, we can talk even if we're already on another project, maybe at another company."*
+---
 
-*"You can't know what you're learning from the mentee, the thing is two-way: the mentee learns the technical stuff, and as a mentor we sharpen our soft-skills."*
+> "*A mentor can't just be a mentor at work, I'd like to think that once I've been mentoring someone for a year and a half, we can talk even if we're already on another project, maybe at another company.*"
+
+---
+
+> "*You can't know what you're learning from the mentee, the thing is two-way: the mentee learns the technical stuff, and as a mentor we sharpen our soft-skills.*"
+
+---
 
 If you’re looking for a job as a career starter or junior developer, it’s worth exploring how a company helps integrate new employees: do they have a mentoring program, and if so, what framework does it have, is there a career path, where they support your further development. And if you like to take others under your wing as a senior professional, look for companies, where you also get support as a mentor!
 
