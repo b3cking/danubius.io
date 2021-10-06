@@ -1,6 +1,6 @@
 ---
 layout: post
-image: "/images/mentoring1.jpg"
+author: Istvan Kis
 title: 🇬🇧 Guidance for mentors, mentees, and companies planning introduction of a mentoring program
 ---
 
