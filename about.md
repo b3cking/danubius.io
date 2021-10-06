@@ -6,7 +6,7 @@ permalink: /about/
 
 ![_config.yml]({{ site.baseurl }}/images/danubius_solutions.png)
 
-Danubius Expert Ltd. is a software engineering company with 10+ years experience in E2E developments in [multiple domains and different markets](https://danubiusinfo.com/domains/).
+Danubius IT Solutions is a software engineering company with 10+ years experience in E2E developments in [multiple domains and different markets](https://danubiusinfo.com/domains/).
 
 ### Our approach
 
