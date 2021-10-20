@@ -10,6 +10,8 @@ title: 🇬🇧 Can you be a Hero in IT? - Lessons from real customer stories
 
 Who is the hero in IT today? Let's be honest, in recent years the word itself has become a bit trite and overused in IT sector (too), but that doesn't mean those, who stand out from the crowd with their attitude and professionalism, have disappeared. They do exist, but they do not advertise themselves over and over again.
 
+<!--more-->
+
 > Anyone who works in a customer-facing role knows that it is not easy to meet expectations and deal with unexpected situations at the same time. The team at Danubius IT Solutions, working mainly on banking, insurance and start-up projects, has encountered many challenging situations over the past decade, which their approach and attitude have successfully guided them through. From these, we caught up with the two founders, Péter Balogh (CEO) and Péter Halász (COO), and two other members of the team, Sarolta Fogarasi (Analyst Team Lead) and Balázs Csintalan (Software architect), to answer the question: is it possible to be a hero in IT?
 
 ## Whose problem is it?

@@ -10,6 +10,8 @@ title: 🇬🇧 Guidance for mentors, mentees, and companies planning introducti
 
 You have just finished a 1.5-year software development bootcamp, or got your degree, graduated from university. You should see a bunch of opportunities in front of you, yet you enter the first job of your life with trembling legs, or right after a career change, get experience in a completely different environment than earlier. You are committed, but also full of questions and doubts. At your new company, they point to an experienced colleague and say (s)he is the one you can turn and talk to, if you have questions or in case of any professional uncertainty – (s)he will be your mentor. Do you calm down, or are you even more nervous?
 
+<!--more-->
+
 You have been working for a certain company for years, you feel valued, and you are often approached by colleagues for professional advice. In such cases, you are always happy to help, it feels good that you can share your accumulated knowledge with developers and analysts. Your workplace is introducing a mentoring program, you apply for it, being selected, and finally the big day has come: today you will finally have a mentee with bright and sparkling eyes! Everybody is happy, but in fact, you have no idea how it will work in practice, you are concerned with at least as many issues as your mentee.
 
 Whichever above mentioned role you are in right now, plenty of questions about mentoring will be answered in our article! If you’re planning to introduce a similar program at your company, the next few lines are absolutely worth reading! :)

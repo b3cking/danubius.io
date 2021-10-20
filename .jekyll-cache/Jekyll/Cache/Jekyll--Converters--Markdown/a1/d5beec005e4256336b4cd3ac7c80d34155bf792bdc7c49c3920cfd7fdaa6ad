@@ -1,18 +1,0 @@
-I"�<p><img src="/images/d-man.png" alt="_config.yml" /></p>
-
-<h5 id="take-a-dose-of-enthusiasm-add-a-dash-of-conscientiousness-then-spice-it-up-with-a-little-persistence-and-curiosity-mix-it-up-and-youre-done-is-the-recipe-for-heroism-that-simple-">Take a dose of enthusiasm! Add a dash of conscientiousness, then spice it up with a little persistence and curiosity! Mix it up and you’re done! Is the recipe for “heroism” that simple? :)</h5>
-
-<p>Who is the hero in IT today? Let’s be honest, in recent years the word itself has become a bit trite and overused in IT sphere (too), but that doesn’t mean those, who stand out from the crowd with their attitude and professionalism, have disappeared. They do exist, but they do not say so over and over again.</p>
-
-<blockquote>
-  <p>Anyone who works in a customer-facing role knows that it is not easy to meet expectations and deal with unexpected situations at the same time. The team at Danubius IT Solutions, working mainly on banking, insurance and start-up projects, has encountered many challenging situations over the past decade, which their approach and attitude have successfully guided them through. From these, we caught up with the two founders, Péter Balogh (CEO) and Péter Halász (COO), and two other members of the team, Sarolta Fogarasi (Analyst Team Lead) and Balázs Csintalan (Software architect), to answer the question: is it possible to be a hero in IT?</p>
-</blockquote>
-
-<h2 id="whose-problem-is-it">Whose problem is it?</h2>
-
-<p>Client? The supplier? Both parties? Depends on what’s in the contract? Below, you’ll read stories that go beyond the “classic” customer relationship and problem-solving.</p>
-
-<h3 id="production-investigation-and-crisis-management">Production investigation and crisis management</h3>
-
-<p>Peter Halász begins with a recent case: “<em>On a calm Friday morning, I received a notice that I had to pay a certain bill that day. I logged into the Internet Bank, but the transfer function did not work, and after logging out I could not log in again. No problem, I thought, I’ll do it in the evening, surely it was just a temporary system error. When I got home, I was surprised to find that the page was still down. As we work in a different area with the bank in question, I sent an SMS to one of our contacts. Soon I received a concerned reply saying that everyone had been working on the failure since the morning, but that they could not find a solution and could not identify the root cause of the problem. As I like new challenges and was increasingly interested in what might be behind it, I logged into the system, as I had the privileges to view the logs. I quickly wrote to Peti (Peter Balogh - who was at the playground with his daughter) about what I was seeing and we started brainstorming, trying to work together to find out what could have happened. At around 9-10pm we managed to find some encouraging things. I quickly sent those to the IT manager, and five minutes later I found myself on a crisis management call with all the bank managers, developers, operators and representatives of the international supply partner involved. Finally, after a couple of hours, based on our initial guidance, we managed to locate the error and find a solution, and the payment transfer system was back online at 1am. Afterwards, we were asked to prepare an incident analysis, which was sent to the parent company and the Hungarian National Bank together with our recommendations.”</em></p>
-:ET
