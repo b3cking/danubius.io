@@ -10,7 +10,7 @@ Have you ever done market segmentation as a **marketing expert**, but it never o
 
 As a **developer or operator**, have you ever not slept the night after a release, because it was impossible to turn off non-operable features, systems were slow to revert to previous state, or there were interdependencies between pieces of code that only a full revert helped? Has it taken days to do a sweaty merge after months of development on several different branches even with some well-written strategy like Gitflow?
 
-Feature flagging is not the Holy Grail, but it can be very helpful to all involved stakeholders in the SDLC.
+Feature flagging is not the Holy Grail, but it can be very helpful for all involved stakeholders in the software development life cycle.
 
 <!--more-->
 
@@ -30,7 +30,7 @@ Probably the most used use-case. With feature flag approach changes can focus on
 
 ### Development and Operation after deployment
 
-It is not enough to have a successful release, systems need to be kept up and running. In the most cases feature flagging is easy to implement from development point of view, operators also like to work with, because even though organisations using feature flagging tend to release more and more frequently over time, this still doesn’t cause more rollbacks from production, quite the contrary: the rollbacks’ number decrease due to the fact, that switching off a feature set does not mean new deploy or code change at all. Even later, if a team responsible for a certain application finds, that some elements of the infrastructure or a component of a software stack is not functioning, which causes performance issues, they have a chance to intervene immediately and switch off high-consuming features. *We do not cover topics like software architecture design and high-availability here, obviously feature flagging cannot replace all these steps later, if they are missing.* (Further goods here: tweaking on-the-go, direct access from business PoV to operation (need to handle with care), no rollback, etc.)
+It is not enough to have a successful release, systems need to be kept up and running. In the most cases feature flagging is easy to implement from development point of view, operators also like to work with, because even though organisations using feature flagging tend to release more and more frequently over time, this still doesn’t cause more rollbacks from production, quite the contrary: the rollbacks’ number decrease due to the fact, that switching off a feature set does not mean new deploy or code change at all. Even later, if a team responsible for a certain application finds, that some elements of the infrastructure or a component of a software stack is not functioning, which causes performance issues, they have a chance to intervene immediately and switch off high-consuming features. *We do not cover topics like software architecture design and high-availability (hereinafter HA) here, obviously feature flagging cannot replace all these steps later, if they are missing.* (Further goods here: tweaking on-the-go, direct access from business PoV to operation (need to handle with care), no rollback, etc.)
 
 ### Experimenting with real customers
 
@@ -75,7 +75,7 @@ To connect the API with our local code, follow the steps described on the websit
 pip install configcat-client
 ```
 
-Use your favourite IDE, and test.
+Use your favourite IDE, and try it out.
 
 <iframe src="https://pastebin.com/embed_iframe/13A2DP52" style="border:none;width:100%;height:210px"></iframe>
 
@@ -91,6 +91,8 @@ Start with like 5% of the customers, and if everything seems fine, increase agai
 
 #### Geolocation based appearance
 
+![_config.yml]({{ site.baseurl }}/images/feature-flag5.png)
+
 ## Customer story from a real-life example
 
 ### Domain
@@ -99,9 +101,9 @@ Start with like 5% of the customers, and if everything seems fine, increase agai
 
 ### The solution
 
-## Results and evaluation
+### Results and evaluation
 
-## Providers on the market (SaaS)
+## Some providers on the market (SaaS too)
 
 - [ConfigCat](https://www.configcat.com) (we use this one)
 - [Featureflags.io](https://featureflags.io) (Opensorce)
@@ -112,3 +114,5 @@ Start with like 5% of the customers, and if everything seems fine, increase agai
 - [Split.io](https://www.split.io)
 
 ## Summary
+
+Feature flagging are a key element of giant tech companies and using this may help your business and team grow and become a fast-paced environment, where release and testing are not fearful words, but something from the daily routine. If you need help, please [contact us](https://danubius.io/about).
