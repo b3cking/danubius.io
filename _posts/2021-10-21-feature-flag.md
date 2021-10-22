@@ -3,6 +3,7 @@ layout: post
 author: Istvan Kis
 title: 🇬🇧 How can feature flagging help you during release and customer experiments?
 ---
+![_config.yml]({{ site.baseurl }}/images/feature-flag0.jpg)
 
 Have you ever been working in a situation as a project manager, business owner, **product owner** on a project or in an organisation, when a major change you have been waited for so long was deployed to production related to an application you were responsible for, and what worked perfectly yesterday’s now broken, but you couldn't intervene? Are you familiar with the terms rollback, while you shouldn’t have to? Perhaps you have developed new functions with IT guys, but when you went live, you couldn't make sure everything was functioning properly, before opening it to the full audience of customers?
 
