@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Istvan Kis
-title: 🇬🇧 Can you be a Hero in IT? - Lessons from real customer stories
+title: Can you be a Hero in IT? - Lessons from real customer stories
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/d-man.png)

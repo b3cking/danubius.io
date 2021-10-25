@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Istvan Kis
-title: 🇬🇧 How can feature flagging help you during release and customer experiments?
+title: How can feature flagging help you during release and customer experiments?
 ---
 ![_config.yml]({{ site.baseurl }}/images/feature-flag0.jpg)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Istvan Kis
-title: 🇬🇧 Guidance for mentors, mentees, and companies planning introduction of a mentoring program
+title: Guidance for mentors, mentees, and companies planning introduction of a mentoring program
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)

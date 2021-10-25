@@ -1,4 +1,6 @@
-I"&<p>Have you ever been working in a situation as a project manager, business owner, <strong>product owner</strong> on a project or in an organisation, when a major change you have been waited for so long was deployed to production related to an application you were responsible for, and what worked perfectly yesterday’s now broken, but you couldn’t intervene? Are you familiar with the terms rollback, while you shouldn’t have to? Perhaps you have developed new functions with IT guys, but when you went live, you couldn’t make sure everything was functioning properly, before opening it to the full audience of customers?</p>
+I"�&<p><img src="/images/feature-flag0.jpg" alt="_config.yml" /></p>
+
+<p>Have you ever been working in a situation as a project manager, business owner, <strong>product owner</strong> on a project or in an organisation, when a major change you have been waited for so long was deployed to production related to an application you were responsible for, and what worked perfectly yesterday’s now broken, but you couldn’t intervene? Are you familiar with the terms rollback, while you shouldn’t have to? Perhaps you have developed new functions with IT guys, but when you went live, you couldn’t make sure everything was functioning properly, before opening it to the full audience of customers?</p>
 
 <p>Have you ever done market segmentation as a <strong>marketing expert</strong>, but it never occurred to you that the app could be used to target specific users, and display differently to some groups than to others? Did you want to try something new, but weren’t sure if it would have the same effect that you expected? Has IT supported A/B testing so far?</p>
 
@@ -103,7 +105,7 @@
 
 <p>Feature flagging is a key element of giant tech companies and using it may help your business and team grow, transform to a fast-paced environment, where release, testing and experimenting are not fearful words, but something you are familiar with from the daily routine.</p>
 
-<p>In Danubius, we used the approach in different domains (education, banking, and many local product development), and in different countries (Belgium, The Netherlands, Hungary, UK, etc.), it was a great help for every projects.</p>
+<p>In <a href="https://danubiusinfo.com/">Danubius</a>, we used the approach in different domains (education, banking, and many local product development), and in different countries (Belgium, The Netherlands, Hungary, UK, etc.), feature flagging was a great help for every projects and every customers.</p>
 
-<p>If you need help in feature flagging or in software development, please, feel free to <a href="https://danubius.io/about">contact us</a>.</p>
+<p>If you need help in feature flagging or in general software development, please, feel free to <a href="https://danubius.io/about">contact us</a>.</p>
 :ET

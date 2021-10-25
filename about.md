@@ -3,10 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-![_config.yml]({{ site.baseurl }}/images/danubius_solutions.png)
-
-Danubius IT Solutions is a software engineering company with 10+ years experience in E2E developments in [multiple domains and different markets](https://danubiusinfo.com/domains/).
+Danubius IT Solutions is a software engineering company with 10+ years experience in end-to-end developments in [multiple domains and different markets](https://danubiusinfo.com/domains/).
 
 ### Our approach
 
@@ -31,6 +28,6 @@ Digital projects are increasingly demanding. They require the cooperation of sev
 
 ### Contact us
 
-If you think that we can help you, contact us at [info@danubiusinfo.hu](mailto:info@danubiusinfo.hu), read our [company website](https://danubiusinfo.com/) or listen to our podcast.
+If you think that we can help you, contact us at [hello@danubusinfo.com](mailto:hello@danubusinfo.com), read our [company website](https://danubiusinfo.com/) or listen to our podcast.
 
 ![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
