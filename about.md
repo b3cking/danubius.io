@@ -28,6 +28,6 @@ Digital projects are increasingly demanding. They require the cooperation of sev
 
 ### Contact us
 
-If you think that we can help you, contact us at [hello@danubusinfo.com](mailto:hello@danubusinfo.com), read our [company website](https://danubiusinfo.com/) or listen to our podcast.
+If you think that we can help you, contact us at [hello@danubusinfo.com](mailto:hello@danubusinfo.com), read our [company website](https://danubiusinfo.com/) or listen to our Hungarian [podcast](https://techergok.danubius.io/).
 
 ![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
