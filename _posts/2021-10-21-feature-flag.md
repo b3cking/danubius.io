@@ -98,7 +98,7 @@ Feature 4 is so great, and only Germany can reach.
 ## Some providers on the market (SaaS too)
 
 - [ConfigCat](https://www.configcat.com) (we use this one)
-- [Featureflags.io](https://featureflags.io) (Opensorce)
+- [Featureflags.io](https://featureflags.io) (Opensource)
 - [LaunchDarkly](https://launchdarkly.com)
 - [Vwo](https://vwo.com)
 - [Cloudbees](https://www.cloudbees.com)
