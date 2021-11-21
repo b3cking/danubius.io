@@ -2,6 +2,7 @@
 layout: post
 author: Istvan Kis
 title: How can feature flagging help you during release and customer experiments?
+keywords: feaute flag management, feature flagging, what is feature flagging, feature flags in software development
 ---
 ![_config.yml]({{ site.baseurl }}/images/feature-flag0.jpg)
 

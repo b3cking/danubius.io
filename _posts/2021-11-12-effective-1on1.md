@@ -2,6 +2,7 @@
 layout: post
 author: Istvan Kis
 title: How to have an effective 1on1, and why is it important?
+keywords: 1 on 1 meeting, 1 on 1 meeting with manager, 1on1 meeting questions, effective 1 on 1 meetings, effective 1on1s, effective 1 on 1 with manager
 ---
 ![_config.yml]({{ site.baseurl }}/images/1on1-1.jpg)
 

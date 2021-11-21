@@ -13,6 +13,12 @@
     <meta name="author" content="{{ site.name }}" />
 
     <meta name="facebook-domain-verification" content="bzlilpjmia8bv3glcxjoy7ge4fmki7" />
+    
+    {%if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}">
+    {% else %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
