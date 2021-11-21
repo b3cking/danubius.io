@@ -6,7 +6,7 @@ keywords: guidance for mentors, how to be a good mentor software development, ho
 
 ---
 
-![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
+{% include image.html src="/images/mentoring1.jpg" alt="Danubius team" %}
 
 **The mentor is not equal to Google, while the mentee has a hard time swimming with a holey life jacket. What to do and not to do, what to pay attention to, while you are a mentor, and what to focus on, if a mentoring program is planned to introduce at your company?**
 
@@ -36,7 +36,7 @@ Becoming a mentor is bidirectional, in which not only the mentee learns, but the
 
 At Danubius, **mentors exclusively select their mentees**, and for making the connection fruitful, they also need to know, which personality they can work with most effectively. During the interviews, they especially focus on the candidate’s and the potential mentor’s communication, common understanding. Are they able to think together? Do they **speak the same language**?
 
-![_config.yml]({{ site.baseurl }}/images/mentoring2.jpg)
+{% include image.html src="/images/mentoring2.jpg" alt="Three developers" %}
 
 As usual, not only mentors have expectations towards mentees, but also mentees have a projected image about an average senior colleague, which can be near to a half-god sometimes. “*I had to realize that a **mentor is not like Google** and may not be able to answer all my questions right away. Sometimes (s)he has to think and lookup things like anyone else.*” – explains a colleague coming from one of the previous bootcamps.
 
@@ -56,7 +56,7 @@ In general, two approaches can work: one is an earlier mentioned structured road
 
 At Danubius, several mentors select a predefined **development curve, which new colleagues are guided through**: for example, they first get acquainted with the development environment, then learn how to deploy on it, make it available online, etc., and when all of these are well-known, they get increasingly complex tasks and opportunities to grow further. In many cases, the following method has been proven successful: when in first period, mentee is given a more **detachable, isolated task** that does not block the work of the other members in the project team. Of course, the question immediately arises about how much working alone helps or hinders the integration into the team. On the other hand, if they participate in all discussions, the new employees do not feel excluded. Of course, it is also possible that a mentee performs better under a certain load due to his or her personality and is less motivated to stay in detached tasks. The mentor needs to recognize this and determine when s(he) can actually be involved in other types of todos as well.
 
-![_config.yml]({{ site.baseurl }}/images/mentoring3.jpg)
+{% include image.html src="/images/mentoring3.jpg" alt="Heart figure with folks from plan view" %}
 
 The next question to take into consideration is, which one is better, to allocate a mentee to a **greenfield project**, when even the customer’s needs are not clear at start, **or to a structured one**, where frames and limitations keep her or him on the field.
 
