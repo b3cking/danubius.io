@@ -2,6 +2,7 @@
 layout: post
 author: Istvan Kis
 title: Can you be a Hero in IT? - Lessons from real customer stories
+keywords: hero in it?, become a hero?, customer stories examples, software development stories
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/d-man.png)
