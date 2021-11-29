@@ -67,4 +67,4 @@ We've heard phrases like this many times over the years, and none of our clients
 
 The above was not intended to describe a complete software development process, we did not want to give a coherent summary, but to show that product development is (unfortunately) not so simple in IT terms that it can be fully covered by one or two persons with only programming skills. It **requires a bigger picture** of where we want to go from where, in what timeframe, how much money we have available, what our expectations are, and keeping priorities and dependencies in check to move forward. It is true for agile as well.
 
-If you think you would like to discuss any of your development project details with Danubius staff, we are available on any of our [contact details](https://danubius.io/about), and more than happy to help you out.
+If you think you would like to discuss any of your development projects details with Danubius staff, we are available on any of our [contact details](https://danubius.io/about), and more than happy to help you out.
