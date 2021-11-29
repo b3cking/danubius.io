@@ -4,7 +4,7 @@ author: Istvan Kis
 title: How to have an effective 1on1, and why is it important?
 keywords: 1 on 1 meeting, 1 on 1 meeting with manager, 1on1 meeting questions, effective 1 on 1 meetings, effective 1on1s, effective 1 on 1 with manager
 ---
-![_config.yml]({{ site.baseurl }}/images/1on1-1.jpg)
+{% include image.html src="/images/1on1-1.jpg" alt="1on1 talk" %}
 
 As a manager, have you ever reorganised your meetings to make more efficient use of your already limited time, to fit that sales presentation, engineering briefing or management coffee in? Can you recall how easy it is to reschedule that certain 1on1 with Peter – “*it'll be fine in three days, won't it*”? Or did you just cancel one, because "*we just talked three weeks ago, he's working, he's improving, I don't see a problem, let’s talk next time*"? It happened to me several times, but after a while, after a series of realisations, I really tried hard to treat 1on1s the way we all should: as one of the most important development and confidence-building opportunities - not only from a managerial point of view, but also as an employee. What's worth knowing about this topic?
 
@@ -12,7 +12,7 @@ As a manager, have you ever reorganised your meetings to make more efficient use
 
 ## How can it go wrong?
 
-![_config.yml]({{ site.baseurl }}/images/1on1-2.jpg)
+{% include image.html src="/images/1on1-2.jpg" alt="Not listening to the other person" %}
 
 Before we deep dive into the many ways in which a culture of 1on1 meetings can bring positive change to an organisation, let's look at how such an opportunity can be botched and counterproductive.
 
@@ -50,7 +50,7 @@ As a leader, we have a responsibility to help our team member grow personally an
 
 A more cohesive team, and a trusting relationship with the leader, in addition to higher performance, has been shown to result in lower turnover and team members feel more valued. Research also tells that the two most accurate indicators of engagement are the extent to which a colleague is given opportunities for self-development while doing the job and the healthy relationship with the manager. So it is worth focusing on development and improvement, and the first step is to gather information about your colleagues, for example through your 1on1 discussions.
 
-![_config.yml]({{ site.baseurl }}/images/1on1-3.jpg)
+{% include image.html src="/images/1on1-3.jpg" alt="CEO and CFO talk about developing people" %}
 
 ## How to have an efficient 1on1?
 

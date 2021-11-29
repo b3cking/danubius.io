@@ -5,7 +5,7 @@ title: Can you be a Hero in IT? - Lessons from real customer stories
 keywords: hero in it?, become a hero?, customer stories examples, software development stories
 ---
 
-![_config.yml]({{ site.baseurl }}/images/d-man.png)
+{% include image.html src="/images/d-man.png" alt="D-man super hero" %}
 
 ##### Take a dose of enthusiasm! Add a dash of conscientiousness, then spice it up with a little persistence and curiosity! Mix it up and you're done! Is the recipe for "heroism" that simple? :)
 
@@ -27,7 +27,7 @@ Peter Halász begins with a recent case: "*On a calm Friday morning, I received 
 
 "*The company that used to run one of the insurance company's claims settlement systems went out of business, leaving the insurer without support for one of its core systems, without even the source code, only the binaries.*"  - recalls Péter Balogh. "*Several of their partners were asked who could help them to recover the source code, so that they could at least make bug fixes and legal, regulatory changes. We were part of that group and frankly we were quite excited about the task. A couple of colleagues rolled up their sleeves and within a week or two we had the reverse engineered version. Devs worked on it a lot, especially the colleague who had a thought at ten o'clock one evening and, after working through the night - aided, of course, by the right amount of caffeine - , the result was there in the morning.  Then we made a few more changes requested by the client as a proof of concept. Thanks to all this, the insurer continued to work with the existing applications for another year and a half, and when the need arose to replace the entire system, we were asked to do the job.*"
 
-![_config.yml]({{ site.baseurl }}/images/work-in-progress.jpg)
+{% include image.html src="/images/work-in-progress.jpg" alt="Work in progress in team" %}
 
 ### Language difference is no barrier
 

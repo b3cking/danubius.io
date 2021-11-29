@@ -3,7 +3,7 @@ layout: post
 author: Istvan Kis
 title: Startup product development risks from technical aspects
 ---
-![_config.yml]({{ site.baseurl }}/images/startup-1.png)
+{% include image.html src="/images/startup-1.png" alt="Man is loosing it with head on his computer" %}
 
 Do you **have the perfect product idea**, a unique and innovative approach, know your potential competitors, and are convinced you can do better? Do you have ideas about how to break into the market, have ideas about marketing and sales, **but IT development is not your thing**? You're not alone, we've recently been talking to a number of similar startup owners and entrepreneurs across Europe, some of whom we've helped to turn their ideas into reality from a development perspective. Many think that they can cover the development part of the process of bringing a product to market by hiring one or two (up to four or five, maybe more) programmers and hope that they will answer all the technical questions. Even if the best developers in the world have been recruited for the task, it will not be that simple and smooth, there are many pitfallss that can hinder the market launch, which can be avoided to a very large extent by conscious planning and preparation. In this post, we will try to gather some of the key, mainly IT-related aspects that are typically missing from business visions and that, apart from writing the source code, will be necessary for the IT and hence business launch of a successful product.
 
@@ -31,7 +31,7 @@ You may think that you have business people to do the testing, and that's perfec
 
 In addition to the above, depending on the methodology you are working with (typically agile, less often waterfall or other), you may need other roles: **Scrum Master** / PM (responsible for team operations), **Product Owner** (responsible for requirements specification, prioritisation and decisions - typically available on the client side), **DevOps Engineer** (typically responsible for fast and automated delivery, monitoring and live operations, logging), and so on. These are also needed, but to what extent and for how long also depends on the scope of the current project and the requirements.
 
-![_config.yml]({{ site.baseurl }}/images/startup-2.jpg)
+{% include image.html src="/images/startup-2.jpg" alt="Jumping over the gap" %}
 
 ## I heard good things about *this and that*
 
@@ -57,7 +57,7 @@ Typically, there is a lot of misunderstanding that agile can be good for everyth
 
 - Even for a cohesive team, meeting the **end deadline** can be a challenge in agile operations, as the team is constantly producing value through continuous feature development, but this does not mean that, without proper planning, all this value produced in small sprints will actually add up to the feature set needed to meet the end goal in X months or years.
 
-![_config.yml]({{ site.baseurl }}/images/startup-3.png)
+{% include image.html src="/images/startup-3.png" alt="Dilbert about agile work" %}
 
 ### "Let's work, don't waste time on daily standup and planning, it's agile, we'll improve by definition“
 

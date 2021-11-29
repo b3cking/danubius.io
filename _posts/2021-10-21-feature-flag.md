@@ -4,7 +4,7 @@ author: Istvan Kis
 title: How can feature flagging help you during release and customer experiments?
 keywords: feaute flag management, feature flagging, what is feature flagging, feature flags in software development
 ---
-![_config.yml]({{ site.baseurl }}/images/feature-flag0.webp)
+{% include image.html src="/images/feature-flag0.webp" alt="On and off button" %}
 
 Have you ever been working in a situation as a project manager, business owner, **product owner** on a project or in an organisation, when a major change you have been waited for so long was deployed to production related to an application you were responsible for, and what worked perfectly yesterday’s now broken, but you couldn't intervene? Are you familiar with the terms rollback, while you shouldn’t have to? Perhaps you have developed new functions with IT guys, but when you went live, you couldn't make sure everything was functioning properly, before opening it to the full audience of customers?
 
@@ -20,7 +20,7 @@ Feature flagging is not the Holy Grail, but it can be very helpful for all invol
 
 There are many definitions out there, but probably the most precise one if we say that feature flagging is an opportunity to change the application’s behaviour and feature sets after the code has been deployed to the running environment, e.g. production one. This leads to many other great chances during and after the standard development process.
 
-![_config.yml]({{ site.baseurl }}/images/feature-flag.png)
+{% include image.html src="/images/feature-flag.png" alt="Feature flag path - show or hide" %}
 
 ## Main benefits of feature flagging
 
@@ -38,7 +38,7 @@ It is not enough to have a successful release, systems need to be kept up and ru
 
 Marketing or Sales can work with feature flags to get more insights about their customers built on top of the data company alerady owns. Let’s imagine they want to show a different advertisement picture to people above and under 30 years, but they do not know how long this promotion or the differentiation will last. With feature flags the problem can be solved easily, and after development and deploy, no IT assistance need to change the features, targets, scopes, etc.
 
-![_config.yml]({{ site.baseurl }}/images/feature-flag2.png)
+{% include image.html src="/images/feature-flag2.png" alt="A/B testing switch" %}
 
 ### “Functionalities”
 
@@ -68,7 +68,7 @@ In general, it is a cheap solution compared to other IT techs, but it depends on
 
 We will use [ConfigCat](https://www.configcat.com) in the example, but any other SaaS provider will work very similar way. First of all, register on the webpage and set our first feature.
 
-![_config.yml]({{ site.baseurl }}/images/feature-flag3.png)
+{% include image.html src="/images/feature-flag3.png" alt="Target specific user" %}
 
 To connect the API to our local code, follow the steps described on the FAQ. As we use Python right now, install configcat-client.
 
@@ -88,13 +88,13 @@ If this works, the good old if-else statements do the rest of the magic, and mar
 
 Start with like 5% of the customers, and if everything seems fine, increase again and again.
 
-![_config.yml]({{ site.baseurl }}/images/feature-flag4.png)
+{% include image.html src="/images/feature-flag4.png" alt="Iterative rollout" %}
 
 #### Geolocation based appearance
 
 Feature 4 is so great, and only Germany can reach.
 
-![_config.yml]({{ site.baseurl }}/images/feature-flag5.png)
+{% include image.html src="/images/feature-flag5.png" alt="Country targeted appearance" %}
 
 ## Some providers on the market (SaaS too)
 
