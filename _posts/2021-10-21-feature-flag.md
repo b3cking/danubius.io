@@ -111,5 +111,3 @@ Feature 4 is so great, and only Germany can reach.
 Feature flagging is a key element of giant tech companies and using it may help your business and team grow, transform to a fast-paced environment, where release, testing and experimenting are not fearful words, but something you are familiar with from the daily routine.
 
 In [Danubius](https://danubiusinfo.com/), we used the approach in different domains (education, banking, and many local product development), and in different countries (Belgium, The Netherlands, Hungary, UK, etc.), feature flagging was a great help for every projects and every customers.
-
-If you need help in feature flagging or in general software development, please, feel free to [contact us](https://danubius.io/about).

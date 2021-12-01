@@ -1,4 +1,4 @@
-I"P+<figure>
+I"+<figure>
     <img src="/images/startup-1.png" alt="Man is loosing it with head on his computer" />
 </figure>
 
@@ -28,7 +28,6 @@
 
 <p>In addition to the above, depending on the methodology you are working with (typically agile, less often waterfall or other), you may need other roles: <strong>Scrum Master</strong> / PM (responsible for team operations), <strong>Product Owner</strong> (responsible for requirements specification, prioritisation and decisions - typically available on the client side), <strong>DevOps Engineer</strong> (typically responsible for fast and automated delivery, monitoring and live operations, logging), and so on. These are also needed, but to what extent and for how long also depends on the scope of the current project and the requirements.</p>
 
-<p><img src="/images/startup-2.jpg" alt="_config.yml" /></p>
 <figure>
     <img src="/images/startup-2.jpg" alt="Jumping over the gap" />
 </figure>
@@ -80,5 +79,5 @@
 
 <p>The above was not intended to describe a complete software development process, we did not want to give a coherent summary, but to show that product development is (unfortunately) not so simple in IT terms that it can be fully covered by one or two persons with only programming skills. It <strong>requires a bigger picture</strong> of where we want to go from where, in what timeframe, how much money we have available, what our expectations are, and keeping priorities and dependencies in check to move forward. It is true for agile as well.</p>
 
-<p>If you think you would like to discuss any of your development project details with Danubius staff, we are available on any of our <a href="https://danubius.io/about">contact details</a>, and more than happy to help you out.</p>
+<p>If you think you would like to discuss any of your development projects details with Danubius staff, we are available on any of our <a href="https://danubius.io/about">contact details</a>, and more than happy to help you out.</p>
 :ET

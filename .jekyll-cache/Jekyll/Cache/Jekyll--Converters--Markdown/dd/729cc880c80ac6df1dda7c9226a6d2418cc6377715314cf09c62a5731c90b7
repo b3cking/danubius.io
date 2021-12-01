@@ -1,4 +1,6 @@
-I"�*<p><img src="/images/startup-1.png" alt="_config.yml" /></p>
+I"**<figure>
+    <img src="/images/startup-1.png" alt="Man is loosing it with head on his computer" />
+</figure>
 
 <p>Do you <strong>have the perfect product idea</strong>, a unique and innovative approach, know your potential competitors, and are convinced you can do better? Do you have ideas about how to break into the market, have ideas about marketing and sales, <strong>but IT development is not your thing</strong>? You’re not alone, we’ve recently been talking to a number of similar startup owners and entrepreneurs across Europe, some of whom we’ve helped to turn their ideas into reality from a development perspective. Many think that they can cover the development part of the process of bringing a product to market by hiring one or two (up to four or five, maybe more) programmers and hope that they will answer all the technical questions. Even if the best developers in the world have been recruited for the task, it will not be that simple and smooth, there are many pitfallss that can hinder the market launch, which can be avoided to a very large extent by conscious planning and preparation. In this post, we will try to gather some of the key, mainly IT-related aspects that are typically missing from business visions and that, apart from writing the source code, will be necessary for the IT and hence business launch of a successful product.</p>
 
@@ -26,7 +28,9 @@
 
 <p>In addition to the above, depending on the methodology you are working with (typically agile, less often waterfall or other), you may need other roles: <strong>Scrum Master</strong> / PM (responsible for team operations), <strong>Product Owner</strong> (responsible for requirements specification, prioritisation and decisions - typically available on the client side), <strong>DevOps Engineer</strong> (typically responsible for fast and automated delivery, monitoring and live operations, logging), and so on. These are also needed, but to what extent and for how long also depends on the scope of the current project and the requirements.</p>
 
-<p><img src="/images/startup-2.jpg" alt="_config.yml" /></p>
+<figure>
+    <img src="/images/startup-2.jpg" alt="Jumping over the gap" />
+</figure>
 
 <h2 id="i-heard-good-things-about-this-and-that">I heard good things about <em>this and that</em></h2>
 
@@ -63,7 +67,9 @@
   </li>
 </ul>
 
-<p><img src="/images/startup-3.png" alt="_config.yml" /></p>
+<figure>
+    <img src="/images/startup-3.png" alt="Dilbert about agile work" />
+</figure>
 
 <h3 id="lets-work-dont-waste-time-on-daily-standup-and-planning-its-agile-well-improve-by-definition">“Let’s work, don’t waste time on daily standup and planning, it’s agile, we’ll improve by definition“</h3>
 
@@ -72,6 +78,4 @@
 <h2 id="summary">Summary</h2>
 
 <p>The above was not intended to describe a complete software development process, we did not want to give a coherent summary, but to show that product development is (unfortunately) not so simple in IT terms that it can be fully covered by one or two persons with only programming skills. It <strong>requires a bigger picture</strong> of where we want to go from where, in what timeframe, how much money we have available, what our expectations are, and keeping priorities and dependencies in check to move forward. It is true for agile as well.</p>
-
-<p>If you think you would like to discuss any of your development project details with Danubius staff, we are available on any of our <a href="https://danubius.io/about">contact details</a>, and more than happy to help you out.</p>
 :ET
