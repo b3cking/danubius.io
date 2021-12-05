@@ -1,0 +1,16 @@
+.author-box {
+  &__written-by {
+    font-size: 10px;
+    font-family: $helveticaNeue, $helvetica, Arial;
+  }
+  &__author span {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Verdana;
+    margin-bottom: 6px;
+  }
+  &__contact {
+    font-size: 12px;
+    font-family: Verdana;
+  }
+}
