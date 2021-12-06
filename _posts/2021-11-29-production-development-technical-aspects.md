@@ -3,7 +3,7 @@ layout: post
 author: Istvan Kis
 title: Startup product development risks from technical aspects
 ---
-{% include image.html src="/images/startup-1.png" alt="Man is loosing it with head on his computer" %}
+{% include image.html src="/images/startup-1.jpg" alt="Man is loosing it with head on his computer" %}
 
 Do you **have the perfect product idea**, a unique and innovative approach, know your potential competitors, and are convinced you can do better? Do you have ideas about how to break into the market, have ideas about marketing and sales, **but IT development is not your thing**? You're not alone, we've recently been talking to a number of similar startup owners and entrepreneurs across Europe, some of whom we've helped to turn their ideas into reality from a development perspective. Many think that they can cover the development part of the process of bringing a product to market by hiring one or two (up to four or five, maybe more) programmers and hope that they will answer all the technical questions. Even if the best developers in the world have been recruited for the task, it will not be that simple and smooth, there are many pitfallss that can hinder the market launch, which can be avoided to a very large extent by conscious planning and preparation. In this post, we will try to gather some of the key, mainly IT-related aspects that are typically missing from business visions and that, apart from writing the source code, will be necessary for the IT and hence business launch of a successful product.
 
