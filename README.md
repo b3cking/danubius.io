@@ -1,1 +1,1 @@
-Danubius Informatika Tech Blog & Podcast - early bird edition
+Engineering & tech blog - by Danubius IT Solutions
