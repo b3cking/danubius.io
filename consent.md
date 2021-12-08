@@ -3,7 +3,8 @@ layout: page
 title: Cookie consent
 permalink: /consent/
 ---
-![_config.yml]({{ site.baseurl }}/images/consent.jpg)
+
+{% include image.html src="/images/consent.jpg" alt="Consent with red underline" %}
 
 HTTP cookies (hereinafter cookies) are small blocks of data created by a web server while a user is browsing a website and placed on the user's computer or other device by the user’s web browser. Cookies are placed on the device used to access a website, and more than one cookie may be placed on a user’s device during a session.
 

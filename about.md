@@ -13,7 +13,7 @@ Without getting lost in details, below we share a few aspects of how we work.
 
 ### Agile in every aspect
 
-![_config.yml]({{ site.baseurl }}/images/techteam.jpg)
+{% include image.html src="/images/techteam.jpg" alt="Team work and collaboration power over the desk" %}
 
 We can do Scrum, we can do Kanban, … whichever is more adequate to the situation. By being agile, we mean more than the methodologies: it is about collaboration, interaction, responding to changes and delivering working software. And yet, we do plan, we do design architecture and we do documentations.
 
@@ -30,4 +30,4 @@ Digital projects are increasingly demanding. They require the cooperation of sev
 
 If you think that we can help you, contact us at [hello@danubusinfo.com](mailto:hello@danubusinfo.com), check our [company website](https://danubiusinfo.com/), read our [tech blog](https://danubius.io/), or listen to our Hungarian [podcast](https://techergok.danubius.io/).
 
-![_config.yml]({{ site.baseurl }}/images/mentoring1.jpg)
+{% include image.html src="/images/mentoring1.jpg" alt="Team on the roof" %}
