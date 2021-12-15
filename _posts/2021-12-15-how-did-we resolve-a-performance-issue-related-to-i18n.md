@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Bence Ignácz
-title: From i18n to performance issues and the solution
+title: How did we resolve a performance issue related to i18n?
 ---
 {% include image.html src="/images/mspecs_permormance_tuning.jpg" alt="MacBook is opening in fancy lights" %}
 
@@ -34,11 +34,11 @@ After looking at this scary behavior, that was really clear, we needed to do som
 * Will there be any side effects?
 * Should I change the technology or parts of the architecture?
 
-Keeping these aspects in mind we've started brainstorming about possible solutions. The first idea was to change the relation fetching from eager to lazy, but this could be very dangerous, because we needed to do a whole regression test and fix the queries, where it was necessary. The second one was to build a well-managed cache layer. It was a bit better, but we had time pressure due to the fixed release date, so we have discarded this option as well.
+Keeping these aspects in mind we've started thinking about possible solutions. The first idea was to change the relation fetching from eager to lazy, but this could be very dangerous, because we needed to do a whole regression test and fix the queries, where it was necessary. The second one was to build a well-managed cache layer. It was a bit better, but we had time pressure due to the fixed release date, so we have discarded this option as well.
 
 After an investigation of the entity structure, we found the problematic relationship with the multilanguage content. They were stored over 2 entities:
 
-*Item 1) – (1 MultiLanguageString 1) – (* LanguageString*
+{% include image.html src="/images/mspecs_entity_relation.jpg" alt="MSpecs entity relation diagram" %}
 
 Since most properties of an item are multilingual, this relation is very painful to load. To resolve this problem we decided to store this data in another way. As we saw, the frontend received this data in a very simple structure, and there was no other operation on the backend side. From this point the solution was very simple: store every translatable content in JSON format in the database. This is supported by most database engines. To do this, we have created schema migration scripts and implemented our own `TypeBinder` for Hibernate.
 
@@ -205,6 +205,6 @@ public MultiLanguageString name;
 
 ## Summary
 
-From now on, we were able to store translation data in the relational database as JSON objects. By this refactor the reindexing process was reduced to ~3 minutes, the item loading on the frontend to ~950ms.
+From now on, we were able to store translation data in the relational database as JSON objects. By this refactor the reindexing process was reduced **from ~30 minutes to ~3 minutes**, the item loading on the frontend **from ~3 seconds to ~950 milliseconds**.
 
 Instead of doing a multi-tier refactor we changed the data layer only, and the ORM layer a bit. After this solution, our customer decided to continue the development with us, and he entrusted us with even more development.
