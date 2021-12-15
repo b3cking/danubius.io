@@ -2,6 +2,7 @@
 layout: post
 author: Istvan Kis
 title: Guidance for mentors, mentees, and companies planning introduction of a mentoring program
+image: mentoring1.jpg
 keywords: guidance for mentors, how to be a good mentor software development, how to be a good mentor teacher, mentor program in the workplace, mentor program in company
 
 ---

@@ -2,6 +2,8 @@
 layout: post
 author: Istvan Kis
 title: Startup product development risks from technical aspects
+image: startup-1.jpg
+keywords: product development, startup, technical difficulties, sdlc, software development
 ---
 {% include image.html src="/images/startup-1.jpg" alt="Man is loosing it with head on his computer" %}
 

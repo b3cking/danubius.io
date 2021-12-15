@@ -2,6 +2,7 @@
 layout: post
 author: Istvan Kis
 title: How can feature flagging help you during release and customer experiments?
+image: feature-flag0.webp
 keywords: feaute flag management, feature flagging, what is feature flagging, feature flags in software development
 ---
 {% include image.html src="/images/feature-flag0.webp" alt="On and off button" %}
