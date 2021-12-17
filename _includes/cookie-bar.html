@@ -1,0 +1,19 @@
+<div id="cookie-bar" class="cookie-bar">
+    <span>We use cookies, by using this website, you agree to our use of cookies. For more information please click <a
+            href="/consent">here</a>.</span>
+    <button onclick="onApproveClick()">OK</button>
+    <script>
+        if (Helper.getCookie('cookieApproved') === 'true') {
+            document.getElementById("cookie-bar").style.display = 'none';
+        } else {
+            document.getElementById("cookie-bar").style.display = 'flex';
+        }
+
+        function onApproveClick() {
+            const oneMonth = 24 * 60 * 60 * 30;
+            const expires = (new Date(Date.now() + oneMonth * 1000)).toUTCString();
+            document.cookie = `cookieApproved=true;expires=${expires};path=/;domain=danubius.io`;
+            document.getElementById("cookie-bar").style.display = 'none';
+        }
+    </script>
+</div>
