@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "mixins";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -313,9 +314,30 @@ button {
   }
 }
 
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+
 @import "highlights";
 @import "svg-icons";
 @import "author-box";
 @import "cookie-bar";
+@import "image-modal";
+@import "image";
