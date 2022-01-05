@@ -94,7 +94,7 @@ At first, we created the wrapper object on `languages` property. To do this we u
 
 ## Backend refactor
 
-Unfortunately, the JSON datatype is not supported by Hibarenate by default. First, we needed to register the new type on the database dialect. There are many ways to do this, in our case we extended the PostgresDialect:
+Unfortunately, the JSON datatype is not supported by Hibernate by default. First, we needed to register the new type on the database dialect. There are many ways to do this, in our case we extended the PostgresDialect:
 
 ```java
 public class ExtendedPostgresDialect extends PostgreSQL10Dialect {
@@ -200,7 +200,7 @@ package com.danubiusinfo.sample.type;
 After the type definition, we could use it in our entity. With the `@Type` annotation custom type of the column can be defined. For the correct validation use the `columnDefinition` attribute in the `@Column` annotation as well.
 
 ```java
-@Type(type = "be.mediaspecs.mediadb.language.type.MultiLanguageStringType")
+@Type(type = "be.domain.mediadb.language.type.MultiLanguageStringType")
 @Column(name = "name", columnDefinition = "json")
 public MultiLanguageString name;
 ```
