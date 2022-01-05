@@ -2,6 +2,8 @@
 layout: post
 author: Bence Ignácz
 title: How did we resolve a performance issue related to i18n?
+image: mspecs_permormance_tuning.jpg
+keywords: i18n, performance, optimization, hibernate, data migration, quarkus
 ---
 {% include image.html src="/images/mspecs_permormance_tuning.jpg" alt="MacBook is opening in fancy lights" %}
 
