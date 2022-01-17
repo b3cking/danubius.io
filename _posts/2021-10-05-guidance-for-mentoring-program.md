@@ -93,4 +93,5 @@ If you would like to be one of the mentors of Danubius Expert, [don't hesitate](
 
 ---
 
-*The article was originally published in Hungarian by ITmap, you can read it* {% include link.html href="https://itmap.hu/utikalauz-mentorprogram/" text="*here*" nofollow="true" afterText="*.*" %}
+*The article was originally published in Hungarian by ITmap, you can read it 
+[here](https://itmap.hu/utikalauz-mentorprogram/){:nofollow="true"}{:target="_blank"}.*
