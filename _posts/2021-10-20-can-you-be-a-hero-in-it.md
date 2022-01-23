@@ -50,8 +50,8 @@ There are fewer good references than a job well done, and honest professionalism
 
 Of course, it is up to each individual to decide for himself what he means by heroism, but the above cases are excellent proof that it is worth being there when the majority either back down or do not even try to put in that extra bit. The one who at least tried will be remembered. The one who was willing to roll up his sleeves when it was not his job. These are the kind of deeds that are rarely talked about these days, but they are the ones worth talking about!
 
-If you want to be part of the Danubius team, don't hesitate: one of the open positions might be [waiting for you](https://www.danubiusinfo.hu/#/carrier)!
+If you want to be part of the Danubius team, don't hesitate: one of the open positions might be [waiting for you](https://www.danubiusinfo.hu/#/carrier){:rel="nofollow"}{:target="_blank"}{:aria-label="Check positions in Danubius Informatika"}!
 
 ---
 
-*The article was originally published in Hungarian by ITmap, you can read it [here](https://itmap.hu/lehet-hosnek-lenni-az-it-ban/).*
+*The article was originally published in Hungarian by ITmap, you can read it [here](https://itmap.hu/lehet-hosnek-lenni-az-it-ban/){:rel="nofollow"}{:target="_blank"}{:aria-label="Read it in ITMap also"}.*

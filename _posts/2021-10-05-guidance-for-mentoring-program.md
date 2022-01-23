@@ -89,7 +89,7 @@ What happens when the program ends? Everyone goes on their own way, the mentee i
 
 If you’re looking for a job as a career starter or junior developer, it’s worth exploring how a company helps integrate new employees: do they have a mentoring program, and if so, what framework does it have, is there a career path, where they support your further development. And if you like to take others under your wing as a senior professional, look for companies, where you also get support as a mentor!
 
-If you would like to be one of the mentors of Danubius Expert, [don't hesitate](https://danubiusinfo.com)!
+If you would like to be one of the mentors of Danubius Expert, [don't hesitate](https://danubiusinfo.com){:rel="nofollow"}{:target="_blank"}{:aria-label="Check Danubius Informatika"}!
 
 ---
 

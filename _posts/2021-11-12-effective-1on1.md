@@ -31,7 +31,7 @@ Before we deep dive into the many ways in which a culture of 1on1 meetings can b
 
 - Schedule 1on1s only because "others" do it as well. Don't go for **superficial conversations**, it makes no sense and has negative effect.
 
-- For Hungarian speakers I suggest watching [this short, funny video](https://www.youtube.com/watch?v=Hk-1qCh5YZ0) about how not to do it online.
+- For Hungarian speakers I suggest watching [this short, funny video](https://www.youtube.com/watch?v=Hk-1qCh5YZ0){:rel="nofollow"}{:target="_blank"}{:aria-label="Watch funny, short video in hungarian"} about how not to do it online.
 
 ## What can you gain from a 1on1 done correctly?
 

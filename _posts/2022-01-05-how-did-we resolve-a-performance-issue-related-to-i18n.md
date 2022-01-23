@@ -211,5 +211,5 @@ From now on, we were able to store translation data in the relational database a
 
 Instead of doing a multi-tier refactor we changed the data layer only, and the ORM layer a bit. After this solution, our customer decided to continue the development with us, and he entrusted us with even more development.
 
-If you are interested in the code more deeply, you can find our example in the  [Hibernate JSON datatype using Quarkus framework](https://github.com/danubiusinfo/java-samples/tree/master/quarkus-hibernate-json)
+If you are interested in the code more deeply, you can find our example in the  [Hibernate JSON datatype using Quarkus framework](https://github.com/danubiusinfo/java-samples/tree/master/quarkus-hibernate-json){:rel="nofollow"}{:target="_blank"}{:aria-label="Code example of HibernateJSON datatype with Quarkus framework"}
 repository.

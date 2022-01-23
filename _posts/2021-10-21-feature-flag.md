@@ -67,7 +67,7 @@ In general, it is a cheap solution compared to other IT techs, but it depends on
 
 ## Where to start
 
-We will use [ConfigCat](https://www.configcat.com) in the example, but any other SaaS provider will work very similar way. First of all, register on the webpage and set our first feature.
+We will use [ConfigCat](https://www.configcat.com){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to ConfigCat page} in the example, but any other SaaS provider will work very similar way. First of all, register on the webpage and set our first feature.
 
 {% include image.html src="/images/feature-flag3.png" alt="Target specific user" %}
 
@@ -79,7 +79,7 @@ pip install configcat-client
 
 Use your favourite IDE, and try it out.
 
-<iframe src="https://pastebin.com/embed_iframe/13A2DP52" style="border:none;width:100%;height:210px"></iframe>
+<iframe src="https://pastebin.com/embed_iframe/13A2DP52" title="ConfigCat code example" style="border:none;width:100%;height:210px"></iframe>
 
 If this works, the good old if-else statements do the rest of the magic, and marketing specialist, business owners can switch features on and off from now on by a single click.
 
@@ -99,16 +99,16 @@ Feature 4 is so great, and only Germany can reach.
 
 ## Some providers on the market (SaaS too)
 
-- [ConfigCat](https://www.configcat.com) (we use this one)
-- [Featureflags.io](https://featureflags.io) (Opensource)
-- [LaunchDarkly](https://launchdarkly.com)
-- [Vwo](https://vwo.com)
-- [Cloudbees](https://www.cloudbees.com)
-- [Hackle](https://hackle.io/)
-- [Split.io](https://www.split.io)
+- [ConfigCat](https://www.configcat.com){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to ConfigCat page"} (we use this one)
+- [Featureflags.io](https://featureflags.io){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to Featureflags.io"} (Opensource)
+- [LaunchDarkly](https://launchdarkly.com){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to LaunchDarkly page}
+- [Vwo](https://vwo.com){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to Vwo page"}
+- [Cloudbees](https://www.cloudbees.com){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to Cloudbees page"}
+- [Hackle](https://hackle.io/){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to Hackle.io"}
+- [Split.io](https://www.split.io){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to Split.io"}
 
 ## Summary
 
 Feature flagging is a key element of giant tech companies and using it may help your business and team grow, transform to a fast-paced environment, where release, testing and experimenting are not fearful words, but something you are familiar with from the daily routine.
 
-In [Danubius](https://danubiusinfo.com/), we used the approach in different domains (education, banking, and many local product development), and in different countries (Belgium, The Netherlands, Hungary, UK, etc.), feature flagging was a great help for every projects and every customers.
+In [Danubius](https://danubiusinfo.com/){:rel="nofollow"}{:target="_blank"}{:aria-label="Go to Danubius Informatika"}, we used the approach in different domains (education, banking, and many local product development), and in different countries (Belgium, The Netherlands, Hungary, UK, etc.), feature flagging was a great help for every projects and every customers.
