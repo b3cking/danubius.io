@@ -1,25 +1,25 @@
 ---
 layout: post
 author: Istvan Kis
-title: Why is user input validation important?
+title: How your file uploads may get hacked?
 image: input-validation-1.jpg
 keywords: input validation, attack vectors, server side validation, client side validation, web, hacker, secure development
 ---
 {% include image.html src="/images/input-validation-1.jpg" alt="" %}
 
-In this blog post we will cover the most important input validation techniques on the web, some attacks againts them, and highlight the importance of sanitizing data sent by the end user with a case study.
+In this blog post we will cover the most important file input validation techniques on the web, some attacks againts them, and highlight the importance of sanitizing data sent by the end user with a case study.
 
 <!--more-->
 
 ## Purpose of input validation
 
-On the internet many endpoints are publicly available, therefore not only our targeted customer group will be able to use our service, but malicious hackers as well. Their goals may vary, but the most desired one is usually to get a remote shell to the server computer, and later collect different kind of information, use cpu to mine cryptocurrency, etc. there. As a developer we need to build secure application, and sanitizing input data is only one, but very important part of this process.
+On the internet many endpoints are publicly available, therefore not only our targeted customer group will be able to use our service, but malicious hackers as well. Their goals may vary, but the most desired one is usually to get a remote shell to the server computer, and later collect different kind of information, use CPU to mine cryptocurrency, etc. there. As a developer we need to build secure application, and sanitizing input data is only one, but very important part of this process.
 
 ## Difference between client and server side validation
 
 {% include image.html src="/images/input-validation-2.png" alt="Client and server validation draw" %}
 
-As you can see in the figure above, the basic scheme is quite easy: client side validation runs on the user's computer, while server side validation happens on the server side. There are many advantages and disadvantages both of them, and we don't plan to summarize all of them here, only a couple.
+As you can see in the figure above, the basic scheme is quite easy: client side validation runs on the user's computer, while server/application side validation happens on the server side. There are many advantages and disadvantages both of them, and we don't plan to summarize all of them here, only a couple.
 
 **Client side** validation can be fast, does not affect our servers/infrastructure, the performance is based only on the client computer's resources, but it is very easy to bypass, because it runs on local machine. It is written usually in scripting language (most often Javascript or Typescript) so the browser can run it by itself.
 
@@ -27,7 +27,7 @@ As you can see in the figure above, the basic scheme is quite easy: client side 
 
 Now that we understand the basics (if you need more info, [check here](https://www.youtube.com/results?search_query=client+and+server+side+validation)), let's move on to specific implementation of these.
 
-## Validation techniques
+## File validation techniques
 
 Let's iterate through some common validation methods, which are used on the web frequently. String (text) validation will be completely skipped (if you interested in it, check [this OWASP cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)), and jump instantly to file uploads. Note that the mentioned techniques are not perfectly secure by definition, we need to understand where and how they can be mixed to mitigate the risks.
 
@@ -55,7 +55,7 @@ Magic numbers are the first few bytes of a a file, which is completely unique to
 
 {% include image.html src="/images/input-validation-3.png" alt="File information on OS/X" %}
 
-Jpegs are usually allowed in a picture uploader form, for testing purpose let's assume we are an attacker, and want to upload a malicious binary or shell script over a magic number validation.
+Jpegs are usually allowed in a picture uploader web form, for testing purpose let's assume we are an attacker, and want to upload a malicious binary or shell script over a magic number validation.
 
 {% include image.html src="/images/input-validation-4.png" alt="PHP script magic number" %}
 
@@ -130,10 +130,12 @@ We can download the ``LGV.jpg`` from ``content`` directory to make sure that it'
 
 {% include image.html src="/images/input-validation-15.png" alt="Command call from admin interface" %}
 
-We see that the param is a direct POST parameter. Now start a ``netcat`` listener on the previously configured IP and port (10.9.125.225:1234 in my case). If it runs, we should call that "jpg" from the modules directory with relative path. We are pretty sure that the OS is a Linux or other NIX-based system, because it answers ICMP pings and nmap base scans. (Microsoft firewall denies every ICMP request by default.)
+We see that the param is a direct POST parameter. Now start a ``netcat`` listener on the previously configured IP and port (10.9.125.225:1234 in my case). If it runs, we should call that "jpg" from the modules directory with relative path. We are pretty sure that the OS is a Linux or other NIX-based system, because it answers ICMP pings and nmap base scans. (Microsoft firewall drops every ICMP request by default.)
 
 {% include image.html src="/images/input-validation-16.png" alt="Root access to the server" %}
 
-The connection was successful, we have **root shell** to the server now, and we didn't even need to handle the jpeg situation, backend was able to call a jpg directly. Good enough. The room's input validation was way below average, and the NodeJS shouldn't be run as root, but it still shows us the importance of input validation.
+The connection was successful, we have **root shell** to the server now, and we didn't even need to handle the jpeg situation, backend was able to call a jpg directly. *Good* enough. The room's input validation was way below average, and the Nginx/NodeJS shouldn't be run as root, but it still shows us the importance of input validation.
 
-Sanitize every single user input, and handle those with proper care.
+## Lessons learned
+
+Sanitize every single user input, and handle those with proper care on both client and server side. Do not assume anything, check and test those values!
