@@ -13,13 +13,13 @@ In this blog post we will cover the most important file input validation techniq
 
 ## Purpose of input validation
 
-On the internet many endpoints are publicly available, therefore not only our targeted customer group will be able to use our service, but malicious hackers as well. Their goals may vary, but the most desired one is usually to get a remote shell to the server computer, and later collect different kind of information, use CPU to mine cryptocurrency, etc. there. As a developer we need to build secure application, and sanitizing input data is only one, but very important part of this process.
+On the internet many endpoints are publicly available, therefore not only our targeted customer group will be able to use our service, but malicious hackers as well. Their goals may vary, but the most desired one is usually to get a remote shell to the server computer, and later collect different kinds of information, use CPU to mine cryptocurrency, etc. there. As a developer we need to build secure applications, and sanitizing input data is only one, but very important part of this process.
 
 ## Difference between client and server side validation
 
 {% include image.html src="/images/input-validation-2.png" alt="Client and server validation draw" %}
 
-As you can see in the figure above, the basic scheme is quite easy: client side validation runs on the user's computer, while server/application side validation happens on the server side. There are many advantages and disadvantages both of them, and we don't plan to summarize all of them here, only a couple.
+As you can see in the figure above, the basic scheme is quite easy: client side validation runs on the user's computer, while server/application side validation happens on the server side. There are many advantages and disadvantages of both of them, and we don't plan to summarize all of them here, only a couple.
 
 **Client side** validation can be fast, does not affect our servers/infrastructure, the performance is based only on the client computer's resources, but it is very easy to bypass, because it runs on local machine. It is written usually in scripting language (most often Javascript or Typescript) so the browser can run it by itself.
 
@@ -29,7 +29,7 @@ Now that we understand the basics (if you need more info, [check here](https://w
 
 ## File validation techniques
 
-Let's iterate through some common validation methods, which are used on the web frequently. String (text) validation will be completely skipped (if you interested in it, check [this OWASP cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)), and jump instantly to file uploads. Note that the mentioned techniques are not perfectly secure by definition, we need to understand where and how they can be mixed to mitigate the risks.
+Let's iterate through some common validation methods, which are used on the web frequently. String (text) validation will be completely skipped (if you're interested in it, check [this OWASP cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)), and jump instantly to file uploads. Note that the mentioned techniques are not perfectly secure by definition, we need to understand where and how they can be mixed to mitigate the risks.
 
 ### File extension filtering
 
@@ -39,7 +39,7 @@ if(file.extension != ".jpg"){
 }
 ```
 
-The easiest way is to check the extension of the uploading file. On Windows systems, the file extension still means something, it helps define file type, while Unix based operating systems rely on other methods (eg. magic numbers - see it later) to get information about files. This approach is easy to implement, but also easy to bypass (changeable locally), depending on the ``file.extension`` calucation method, blacklisting or whitelisting file extensions, etc.
+The easiest way is to check the extension of the uploading file. On Windows systems, the file extension still means something, it helps to define file type, while Unix based operating systems rely on other methods (eg. magic numbers - see it later) to get information about files. This approach is easy to implement, but also easy to bypass (changeable locally), depending on the ``file.extension`` calucation method, blacklisting or whitelisting file extensions, etc.
 
 ### File type filtering
 
@@ -51,7 +51,7 @@ When a client uploads a file via http/s, the header always contain a "``Content-
 
 #### Magic number
 
-Magic numbers are the first few bytes of a a file, which is completely unique to a certain file type. Linux ``file`` command is based on this string.
+Magic numbers are the first few bytes of a file, which is completely unique to a certain file type. Linux ``file`` command is based on this string.
 
 {% include image.html src="/images/input-validation-3.png" alt="File information on OS/X" %}
 
@@ -75,7 +75,7 @@ Filtering control characters (slash, backslash, asterisk, semicolon, etc.) is ma
 
 ## Client side attacks
 
-These validations are unsafe, and we do not use these to provide security, but to give customers fast feedbacks and pleisure. How can we bypass?
+These validations are unsafe, and we do not use these to provide security, but to give customers fast feedbacks and pleasure. How can we bypass?
 
 - First and foremost you can completely switch off Javascript in your browser.
 - Use browser Developer Tools for changing Javascript methods, even if those are obfuscated, use de-obfuscator.
@@ -88,7 +88,7 @@ These validations are unsafe, and we do not use these to provide security, but t
 - Content checks and filtering.
 - Magic numbers we already covered.
 
-There are many other validation techniques, which were not mentioned here, know and use them properly for building a secure applications. Remember that security bugs may not similar to functional ones, where you can fix errors even after customers faced it. In certain situations you may not have the chance to do this after critical, escalated unauthorised access over a security hole.
+There are many other validation techniques, which were not mentioned here, know and use them properly for building a secure applications. Remember that security bugs may not be similar to functional ones, where you can fix errors even after customers faced it. In certain situations you may not have the chance to do this after critical, escalated unauthorised access over a security hole.
 
 Let's see how an insufficient validation may cause deeper problems.
 
@@ -102,15 +102,15 @@ Let's see what's on client side in html/js code.
 
 {% include image.html src="/images/input-validation-7.png" alt="Javascript validation" %}
 
-We can see that there is a length, a jpeg (magic number) and an extension validator. We need to bypass every one of them somehow. With Wappalyzer, we can see that the backend is served by NodeJS, which is important to know, because of the type of possible reverse shell we can use later.
+We can see that there is a length, a jpeg (magic number) and an extension validator. We need to bypass every one of them somehow. With Wappalyzer, we can see that the backend is served by NodeJS, which is important to know, because of the type of possibly usable reverse shells.
 
 {% include image.html src="/images/input-validation-9.png" alt="NodeJS at backend" %}
 
-When we try to upload a non-jpeg file, an error occur, so the javascript does its job *well*. So right now we are able to upload jpegs, but we don't know where those are stored. Let's try to investigate web directory structure with Gobuster.
+When we try to upload a non-jpeg file, an error occurs, so the javascript does its job *well*. So right now we are able to upload jpegs, but we don't know where those are stored. Let's try to investigate web directory structure with Gobuster.
 
 {% include image.html src="/images/input-validation-10.png" alt="Interesting directories" %}
 
-Many of them are http error 301, because directory listing is prohibited, but ``assets`` and ``content`` can be good candidates for storing the uploaded files in. The THM box helps us with a keyword list, which contains 3-letter words. Maybe those are directories, files or else, but still a good hint. I only show the solution below, because the investigation went on different failed ways. Content dir contains uploaded stuff.
+Many of them are http error 301, because directory listing is prohibited, but ``assets`` and ``content`` can be good candidates for storing the uploaded files in. The THM box helps us with a keyword list, which contains 3-letter words. Maybe those are directories, files or else, but it's still a good hint. I only show the final solution below, because the investigation went on different failed ways. Content dir contains uploaded stuff.
 
 {% include image.html src="/images/input-validation-11.png" alt="File list inside content directory" %}
 
@@ -122,7 +122,7 @@ It seems that the ``module`` directory contains scripts which can be executed by
 
 {% include image.html src="/images/input-validation-13.png" alt="Reverse shell" %}
 
-Let's upload it and check the files again in ``content`` directory with gobuster, so we know what the actual name of it.
+Let's upload it and check the files again in ``content`` directory with gobuster, so we know the actual name of it.
 
 {% include image.html src="/images/input-validation-14.png" alt="Shell as jpeg" %}
 
