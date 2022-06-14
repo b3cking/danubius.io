@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Rólunk
-permalink: /rolunk/
+title: Dolgozz velünk!
+permalink: /gyere/
 ---
 
 {% include image.html src="/images/danubius-informatika.jpg" alt="Danubius logó" %}
