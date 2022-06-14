@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dolgozz velünk!
-permalink: /gyere/
+permalink: /dolgozzvelunk/
 ---
 
 {% include image.html src="/images/danubius-informatika.jpg" alt="Danubius logó" %}
