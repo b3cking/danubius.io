@@ -168,7 +168,7 @@ fun DiCardApp() {
 }
 ```
 
-### More then one
+### More than one
 
 Create a new data class to hold the attributes of a `CreditCard()` composable, for example `CardInfo.kt`.
 
