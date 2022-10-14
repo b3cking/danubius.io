@@ -17,7 +17,7 @@ Crypto wallets store your private key(s) for your address(es). Your address is t
 
 ## A bare minimum crypto wallet
 
-{% video ./videos/krypto_wallet.mp4 720 ./images/crypto-wallet-video-preview.png %}
+{% include image.html src="/images/crypto-wallet-video-preview.png" alt="Crypto wallet with Flutter" %}
 
 A bare minimum crypto wallet application can create and store a new wallet and address, send and receive tokens. To support the process of address exchange between the participants, we implement a QR generator screen and a QR scanner screen. The QR code contains the recipient's address.
 For easy network change, we add a dropdown list with network names. 
