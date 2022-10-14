@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Bence Ignácz
-title: How to create crypto wallet mobile app with Flutter
+title: How to create crypto wallet mobile dApp with Flutter
 image: crypto-wallet-with-flutter-cover.png
 keywords: performance, productivity, selfcare, work-life balance, test
 ---
